@@ -1,0 +1,5 @@
+node_modules/
+backend/crm.db
+backend/.env
+build/
+.env

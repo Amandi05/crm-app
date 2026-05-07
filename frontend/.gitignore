@@ -1,0 +1,5 @@
+Add-Content .gitignore "node_modules/"
+Add-Content .gitignore "backend/crm.db"
+Add-Content .gitignore "backend/.env"
+Add-Content .gitignore "build/"
+Add-Content .gitignore ".env"
