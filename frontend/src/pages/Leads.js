@@ -41,8 +41,9 @@ const Leads = () => {
 
   useEffect(() => {
     fetchLeads();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters]);
-
+  
   const handleDelete = async (id) => {
     if (!window.confirm('Are you sure you want to delete this lead?')) return;
     try {
